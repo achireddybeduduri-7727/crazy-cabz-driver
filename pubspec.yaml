@@ -1,5 +1,8 @@
-name: crazy_cabz_driver
-description: "Crazy Cabz - driver app (fare by time and distance)."
+name: crazy_cabz
+description: "Crazy Cabz - Driver app (fare calculated by time and distance)."
+homepage: https://github.com/USERNAME/crazy-cabz-driver
+repository: https://github.com/USERNAME/crazy-cabz-driver
+author: Achir <achir@example.com>
 publish_to: 'none'
 version: 1.0.0+1
 
