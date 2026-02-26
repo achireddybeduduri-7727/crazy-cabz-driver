@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "919440517427",
+    "firebase_url": "https://driver-app-9ede9-default-rtdb.firebaseio.com",
+    "project_id": "driver-app-9ede9",
+    "storage_bucket": "driver-app-9ede9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919440517427:android:72996eaa1b83ad8a943646",
+        "android_client_info": {
+          "package_name": "com.cabs.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPt1Ieqj6zBTCGxATiDoOLZ8RoUxUbOho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919440517427:android:ca95903f61d6d5f0943646",
+        "android_client_info": {
+          "package_name": "com.ttd.driverapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPt1Ieqj6zBTCGxATiDoOLZ8RoUxUbOho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

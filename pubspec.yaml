@@ -1,0 +1,116 @@
+name: crazy_cabz_driver
+description: "Crazy Cabz - driver app (fare by time and distance)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  flutter_riverpod: ^2.4.9
+  
+  # UI & Animations
+  animations: ^2.0.8
+  flutter_staggered_animations: ^1.1.1
+  lottie: ^2.7.0
+  
+  # Firebase & Backend (Updated for web compatibility)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+  firebase_database: ^11.1.4
+  firebase_storage: ^12.3.2
+  
+  # HTTP & Network
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  
+  # Storage & Security
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Location & Maps
+  geolocator: ^10.1.0
+  permission_handler: ^11.2.0
+  google_maps_flutter: ^2.5.3
+  location: ^5.0.3
+  google_polyline_algorithm: ^3.1.0
+  # maps_launcher: ^2.2.1  # Temporarily commented out due to namespace issues
+  geocoding: ^2.1.1
+  
+  # GPS Tracking & Background Location  
+  flutter_background_service: ^5.1.0
+  workmanager: ^0.9.0
+  
+  # Charts
+  fl_chart: ^0.65.0
+  
+  # Push Notifications - Removed for now
+  # firebase_messaging: ^14.7.10
+  # flutter_local_notifications: ^13.0.0
+  
+  # Communication
+  agora_rtc_engine: ^6.3.2
+  socket_io_client: ^2.0.3+1
+  
+  # Image & Media
+  image_picker: ^1.0.6
+  cached_network_image: ^3.3.1
+  
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  logger: ^2.0.2+1
+  flutter_launcher_icons: ^0.13.1
+  equatable: ^2.0.5
+  
+  # Phone & Communication
+  url_launcher: ^6.2.2
+  
+  # Web compatibility
+  js: ^0.6.7
+  
+  # OTP & Verification
+  pinput: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+  
+  # Testing
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  bloc_test: ^9.1.7
+  network_image_mock: ^2.1.1
+  flutter_driver:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    
+  # fonts:
+    # - family: Poppins
+    #   fonts:
+    #     - asset: assets/fonts/Poppins-Regular.ttf
+    #     - asset: assets/fonts/Poppins-Medium.ttf
+    #       weight: 500
+    #     - asset: assets/fonts/Poppins-SemiBold.ttf
+    #       weight: 600
+    #     - asset: assets/fonts/Poppins-Bold.ttf
+    #       weight: 700
