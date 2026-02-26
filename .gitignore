@@ -1,3 +1,26 @@
+/.dart_tool/
+/build/
+/ios/Flutter/Flutter.framework/
+.gradle/
+.idea/
+.packages
+pubspec.lock
+*.iml
+*.log
+*.lock
+**/android/gradle.properties
+**/local.properties
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.metadata
+/.flutter-plugins
+.DS_Store
+/.vscode/
+/.idea/
+*.swp
+/.firebase/
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
 # Flutter/Dart
 .dart_tool/
 .pub/
